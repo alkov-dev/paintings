@@ -1,0 +1,44 @@
+.pictures__container {
+    margin-top: 45px;
+    width: 100%;
+
+}
+
+.paintings__container{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 18px;
+}
+
+.paintings__container li{
+    background-color: lightslategrey;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.pagination__block{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+
+@media screen and (max-width: 1366px) {
+    .paintings__container li{
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .paintings__container li{
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .paintings__container li{
+        margin-bottom: 10px;
+    }
+}
+

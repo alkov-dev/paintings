@@ -1,0 +1,219 @@
+.block__container{
+    width: 265px;
+    padding-right: 5px;
+    position: relative;
+}
+
+.current__block{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px 0 10px;
+    font-size: 13px;
+}
+.img{
+    width: 10px;
+    height: 6px;
+    transition: .4s;
+}
+.img__rotate{
+    width: 10px;
+    height: 6px;
+    transform: rotate(180deg);
+    transition: .4s;
+}
+
+.current__value{
+    border-radius: 8px;
+    margin: 0;
+    padding: 0;
+    width: 265px;
+    height: 43px;
+    border: 1px solid var(--theme-defaut-color-r);
+    cursor: pointer;
+
+}
+.block__borderRadius{
+    border-radius: 8px 8px 0 0;
+    margin: 0;
+    padding: 0;
+    width: 265px;
+    height: 43px;
+    border: 1px solid var(--theme-defaut-color-r);
+    border-bottom: 1px solid gray;
+}
+.block__inside{
+    z-index: 100;
+    position: absolute;
+    top: 45px;
+    width: 265px;
+    height: 355px;
+    border: 1px solid var(--theme-defaut-color-r);
+    border-radius: 0 0 8px 8px;
+    border-top: none;
+    background-color: var(--theme-defaut-color);
+
+}
+.block{
+    /* display: none; */
+    width: 260px;
+    height: 355px;
+    overflow: scroll;
+}
+.block ul{
+    display: flex;
+    flex-direction: column;
+}
+.block ul li:hover{
+    color: gray;
+}
+.li__none{
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 15px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.block__item{
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 15px;
+}
+.block::-webkit-scrollbar {
+    width: 9px;
+    height: 0px;
+    background-color: var(--theme-defaut-color);
+
+}
+.block::-webkit-scrollbar-track {
+    height: 10%;
+    margin-right: 5px;
+
+}
+
+.block::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    height: 13px;
+    background-color: #7B7B7B;
+
+}
+
+
+@media screen and (max-width: 1366px) {
+    .block__container{
+        width: 220px;
+    }
+    .current__value{
+        width: 220px;
+        height: 43px;
+    }
+    .block__borderRadius{
+        width: 220px;
+        height: 43px;
+    }
+    .block__inside{
+        top: 45px;
+        width: 220px;
+        height: 355px;
+    }
+    .block{
+        width: 215px;
+        height: 355px;
+    }
+    .li__none{
+        margin-left: 20px;
+        margin-right: 10px;
+        font-size: 16px;
+    }
+    .block__item{
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 10px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .block__container{
+        width: 160px;
+    }
+    .current__value{
+        width: 160px;
+        height: 43px;
+    }
+    .block__borderRadius{
+        width: 160px;
+        height: 43px;
+    }
+    .block__inside{
+        top: 45px;
+        width: 160px;
+        height: 355px;
+    }
+    .block{
+        width: 155px;
+        height: 355px;
+    }
+    .li__none{
+        margin-left: 13px;
+        margin-right: 5px;
+        font-size: 16px;
+    }
+    .block__item{
+        margin-top: 20px;
+        margin-left: 13px;
+        margin-right: 5px;
+        font-size: 16px;
+    }
+}
+    
+@media screen and (max-width: 768px) {
+    .block__container{
+        width: 280px;
+        margin: 0 auto;
+    }
+    .current__value{
+        width: 280px;
+        height: 43px;
+    }
+    .block__borderRadius{
+        width: 280px;
+        height: 43px;
+    }
+    .block__inside{
+        top: 45px;
+        width: 280px;
+        height: 435px;
+    }
+    .block{
+        width: 275px;
+        height: 435px;
+    }
+    .li__none{
+        margin-left: 20px;
+        margin-right: 5px;
+        font-size: 16px;
+        text-align: start;
+    }
+    .block__item{
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 5px;
+        font-size: 16px;
+        text-align: start;
+    }
+
+
+}
+    

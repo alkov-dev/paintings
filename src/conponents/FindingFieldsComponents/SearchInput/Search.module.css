@@ -1,0 +1,39 @@
+.input{
+    background-color: var(--theme-defaut-color, #000);
+    color: var(--theme-defaut-color-r, #fff);
+    border: 1px solid var(--theme-defaut-color-r, #fff);
+    border-radius: 8px;
+    width: 265px;
+    height: 43px;
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+    font-size: 13px;
+    outline:none;
+}
+
+
+@media screen and (max-width: 1366px) {
+    .input{
+        width: 220px;
+        height: 43px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .input{
+        width: 160px;
+        height: 43px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .input{
+        margin: 0;
+        padding-left: 10px;
+        width: 260px;
+        height: 43px;
+    }
+}
+

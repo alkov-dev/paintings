@@ -1,0 +1,50 @@
+:root {
+  --theme-light-color: white;
+  --theme-dark-color: black;
+  /* --theme-defaut-color: var(--theme-light-color) */
+  --theme-defaut-color: black;
+  --theme-defaut-color-r: white;
+}
+
+
+body {
+  font-family: Roboto;
+  margin: 0;
+  padding: 0;
+  background-color: var(--theme-defaut-color);
+  color: var(--theme-defaut-color-r);
+}
+
+.container {
+  margin: 0 auto;
+  height: 100%;
+  min-height: 1200px;
+  width: 1130px;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+
+@media screen and (max-width: 1366px) {
+  .container{
+    width: 940px;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  .container{
+    width: 700px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .container{
+    width: 280px;
+  }
+}
+
