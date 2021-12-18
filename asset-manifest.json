@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/paintings/static/css/main.ac3f6d44.chunk.css",
+    "main.js": "/paintings/static/js/main.fb4b7ff1.chunk.js",
+    "main.js.map": "/paintings/static/js/main.fb4b7ff1.chunk.js.map",
+    "runtime-main.js": "/paintings/static/js/runtime-main.31d46cbd.js",
+    "runtime-main.js.map": "/paintings/static/js/runtime-main.31d46cbd.js.map",
+    "static/js/2.7cede236.chunk.js": "/paintings/static/js/2.7cede236.chunk.js",
+    "static/js/2.7cede236.chunk.js.map": "/paintings/static/js/2.7cede236.chunk.js.map",
+    "index.html": "/paintings/index.html",
+    "static/css/main.ac3f6d44.chunk.css.map": "/paintings/static/css/main.ac3f6d44.chunk.css.map",
+    "static/js/2.7cede236.chunk.js.LICENSE.txt": "/paintings/static/js/2.7cede236.chunk.js.LICENSE.txt",
+    "static/media/NextEnd.2dc29e5a.svg": "/paintings/static/media/NextEnd.2dc29e5a.svg",
+    "static/media/NextEndBlack.c7511021.svg": "/paintings/static/media/NextEndBlack.c7511021.svg",
+    "static/media/NextOne.bc69b614.svg": "/paintings/static/media/NextOne.bc69b614.svg",
+    "static/media/NextOneBlack.6063ef55.svg": "/paintings/static/media/NextOneBlack.6063ef55.svg",
+    "static/media/Vector.c9c1cfcb.svg": "/paintings/static/media/Vector.c9c1cfcb.svg",
+    "static/media/VectorBlack.8c2aa315.svg": "/paintings/static/media/VectorBlack.8c2aa315.svg",
+    "static/media/down-svgrepo-com.5d10c8c6.svg": "/paintings/static/media/down-svgrepo-com.5d10c8c6.svg",
+    "static/media/label.89c5d48f.svg": "/paintings/static/media/label.89c5d48f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.31d46cbd.js",
+    "static/js/2.7cede236.chunk.js",
+    "static/css/main.ac3f6d44.chunk.css",
+    "static/js/main.fb4b7ff1.chunk.js"
+  ]
+}
